@@ -3,7 +3,7 @@
 <rewriteSet-array>
   <rewriteSet>
     <active>true</active>
-    <name>Ch_2</name>
+    <name>Ex_1</name>
     <hosts>
       <locationPatterns>
         <locationMatch>
@@ -11,7 +11,7 @@
             <protocol>http</protocol>
             <host>162.55.220.72</host>
             <port>5005</port>
-            <path>/user_info_3</path>
+            <path>/get_method</path>
           </location>
           <enabled>true</enabled>
         </locationMatch>
@@ -20,13 +20,15 @@
     <rules>
       <rewriteRule>
         <active>true</active>
-        <ruleType>7</ruleType>
-        <matchValue>1160</matchValue>
+        <ruleType>9</ruleType>
+        <matchHeader>name</matchHeader>
+        <matchValue></matchValue>
         <matchHeaderRegex>false</matchHeaderRegex>
         <matchValueRegex>false</matchValueRegex>
         <matchRequest>false</matchRequest>
-        <matchResponse>true</matchResponse>
-        <newValue>290</newValue>
+        <matchResponse>false</matchResponse>
+        <newHeader>name</newHeader>
+        <newValue>Jname</newValue>
         <newHeaderRegex>false</newHeaderRegex>
         <newValueRegex>false</newValueRegex>
         <matchWholeValue>false</matchWholeValue>

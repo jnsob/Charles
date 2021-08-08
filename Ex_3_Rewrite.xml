@@ -3,7 +3,7 @@
 <rewriteSet-array>
   <rewriteSet>
     <active>true</active>
-    <name>Ch_3</name>
+    <name>Ex_3</name>
     <hosts>
       <locationPatterns>
         <locationMatch>
@@ -22,7 +22,7 @@
         <active>true</active>
         <ruleType>9</ruleType>
         <matchHeader>name</matchHeader>
-        <matchValue>Bishop</matchValue>
+        <matchValue></matchValue>
         <matchHeaderRegex>false</matchHeaderRegex>
         <matchValueRegex>false</matchValueRegex>
         <matchRequest>false</matchRequest>
@@ -36,7 +36,7 @@
         <replaceType>2</replaceType>
       </rewriteRule>
       <rewriteRule>
-        <active>true</active>
+        <active>false</active>
         <ruleType>7</ruleType>
         <matchValue>0.9</matchValue>
         <matchHeaderRegex>false</matchHeaderRegex>
@@ -51,7 +51,7 @@
         <replaceType>2</replaceType>
       </rewriteRule>
       <rewriteRule>
-        <active>true</active>
+        <active>false</active>
         <ruleType>7</ruleType>
         <matchValue>187.5</matchValue>
         <matchHeaderRegex>false</matchHeaderRegex>
